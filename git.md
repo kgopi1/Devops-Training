@@ -24,24 +24,30 @@ Day 3:
 - Merge - Reviewer will review and merge code . 
 - Branch Protection & Policies. 
 
-1. Starting 
+1. Starting
+```
 git clone , 
 git add .
 git commit 
-git push 
+git push
+```
 
-2. Creating branches. 
-to created 
+3. Creating branches. 
+to created
+```
 git checkout -b <new branch>
+```
 make code changes
+```
 git add .
 git commit -m "message"
-git push --set-upstream origin vm # git push to remote branch 
+git push --set-upstream origin vm # git push to remote branch
+```
 
-3. enhance code in the existing branch. 
+5. enhance code in the existing branch. 
 Shaice done existing code. 
 
-4. merge code :
+6. merge code :
 PR request. 
 
 merge code to master 
